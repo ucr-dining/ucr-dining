@@ -1,0 +1,2 @@
+## Notes
+Links that start with `/` do not work. This is because, when deploying to github pages, the default domain path is https://ucr-dining.github.io/ucr-dining/, and `/` resolves to the underlying `github.io` base url, causing other files referenced in `index.html` to be inaccessible in the deployed build.

@@ -24,7 +24,6 @@ async fn main() -> Result<(), Error> {
     Ok(())
 }
 
-
 pub(crate) async fn my_handler(_event: Request) -> Result<Response<Body>, Error> {
     // client code from https://docs.rs/awc/latest/awc/ & discovered on actix github
     let client = reqwest::Client::new();
